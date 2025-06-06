@@ -1,13 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
-</head>
-<body><h1>vikram</h1>
-    <h2>sample1</h2>
-    <b>sample2</b>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flexi Loaner - Digital Loan & EMI Management</title>
+  <link rel="stylesheet" href="home1.css" />
+  <style>
     
+    .feature-icon {
+      font-size: 2.5rem;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .icon-doc::before { content: "📄"; }
+    .icon-calendar::before { content: "📅"; }
+    .icon-card::before { content: "💳"; }
+    .icon-history::before { content: "📊"; }
+    .icon-shield::before { content: "🛡️"; }
+    .icon-bell::before { content: "🔔"; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Flexi Loaner</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="login.html" class="btn-login">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section id="home" class="banner">
+    <img src="banner.webp" alt="Loan Management Banner" class="banner-image" />
+    <div class="banner-content">
+      <h1>Manage Loans & EMIs Effortlessly</h1>
+      <p>Your trusted partner in seamless digital loan and EMI tracking.</p>
+      <a href="signup.html" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2 class="section-title">Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon icon-doc"></div>
+          <h3>Easy Loan Application</h3>
+          <p>Apply for loans quickly with simple online forms and document uploads.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-calendar"></div>
+          <h3>EMI Tracking</h3>
+          <p>Keep track of all your EMIs with due dates, payment status, and reminders.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-card"></div>
+          <h3>Multiple Payment Methods</h3>
+          <p>Pay EMIs easily using various payment gateways like cards, wallets, or net banking.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-history"></div>
+          <h3>Repayment History</h3>
+          <p>View your complete EMI payment history and download receipts anytime.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-shield"></div>
+          <h3>Admin Oversight</h3>
+          <p>Admins can manage users, approve loans, and monitor repayments efficiently.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-bell"></div>
+          <h3>Real-time Notifications</h3>
+          <p>Get instant alerts for EMI due dates, payments, and loan status updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Flexi Loaner</h2>
+      <p>
+        Flexi Loaner is a cutting-edge digital loan management platform designed to simplify your
+        borrowing experience. From application to repayment, manage everything in one place with
+        transparent tracking and easy-to-use tools.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Flexi Loaner. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
